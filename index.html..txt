@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebQuest Kelas 4: Menjaga Kebersihan Lingkungan Sekitar</title>
+<style>
+:root { --hijau: #16a34a; --hijau2: #15803d; --kuning: #fde047; --biru: #2563eb; }
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", Arial, sans-serif; margin: 0px; background: rgb(240, 253, 244); color: rgb(31, 41, 55); line-height: 1.65; }
+header { background: linear-gradient(135deg, rgb(22, 163, 74), rgb(6, 95, 70)); color: rgb(255, 255, 255); text-align: center; padding: 46px 18px; border-bottom: 8px solid var(--kuning); }
+header h1 { margin: 0px; font-size: 2rem; }
+header p { max-width: 760px; margin: 12px auto 0px; }
+.badge { display: inline-block; background: var(--kuning); color: rgb(17, 17, 17); font-weight: bold; padding: 8px 16px; border-radius: 999px; margin-top: 14px; }
+main { max-width: 940px; margin: auto; padding: 20px; }
+section { background: rgb(255, 255, 255); border-radius: 22px; padding: 26px; margin: 20px 0px; box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 22px; border: 3px dashed rgb(187, 247, 208); }
+h2 { color: var(--hijau2); margin-top: 0px; }
+h2::before { content: "🌱 "; }
+h3 { color: rgb(6, 95, 70); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+.card { background: rgb(240, 253, 244); border: 3px solid rgb(187, 247, 208); border-radius: 18px; padding: 18px; }
+.card a { display: inline-block; margin-top: 10px; background: var(--hijau); color: rgb(255, 255, 255); padding: 10px 16px; border-radius: 999px; text-decoration: none; font-weight: bold; }
+.card a:hover { background: var(--hijau2); }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 2px solid rgb(134, 239, 172); padding: 10px; text-align: left; vertical-align: top; }
+th { background: rgb(220, 252, 231); }
+ol li, ul li { margin: 8px 0px; }
+.callout { background: rgb(254, 249, 195); border: 3px solid var(--kuning); padding: 16px; border-radius: 16px; font-weight: bold; }
+.step { background: rgb(236, 253, 245); border-left: 8px solid var(--hijau); padding: 14px; border-radius: 12px; margin: 12px 0px; }
+.soal { background: rgb(248, 250, 252); border: 2px solid rgb(203, 213, 225); border-radius: 14px; padding: 16px; margin: 12px 0px; }
+.soal p { font-weight: bold; margin-top: 0px; }
+label { display: block; margin: 6px 0px; cursor: pointer; }
+button { background: var(--hijau); color: rgb(255, 255, 255); border: none; padding: 12px 20px; border-radius: 999px; font-weight: bold; font-size: 1rem; cursor: pointer; }
+button:hover { background: var(--hijau2); }
+#hasil { margin-top: 14px; font-weight: bold; font-size: 1.1rem; }
+footer { text-align: center; padding: 24px; color: rgb(75, 85, 99); }
+@media (max-width: 600px) {
+ header h1 { font-size: 1.5rem; }
+ section { padding: 18px; }
+}
+</style>
+</head>
+<body>
+<header>
+<h1>🌍 Menjaga Kebersihan Lingkungan Sekitar</h1>
+<p>WebQuest Bahasa Indonesia Kelas 4: belajar menjaga kebersihan rumah, sekolah, dan lingkungan sekitar.</p>
+<span class="badge">Kelas 4 • Bahasa Indonesia • 2 × 35 menit</span>
+</header>
+<main>
+
+<section>
+<h2>Tujuan Pembelajaran</h2>
+<p>Setelah pembelajaran, siswa dapat:</p>
+<ol>
+<li>Menjelaskan pentingnya menjaga kebersihan lingkungan sekitar.</li>
+<li>Menemukan informasi tentang kebersihan lingkungan dari buku dan internet.</li>
+<li>Menyebutkan cara sederhana menjaga kebersihan di rumah dan sekolah.</li>
+<li>Menuliskan informasi penting dengan bahasa sendiri.</li>
+<li>Menyebutkan sumber informasi yang digunakan.</li>
+</ol>
+</section>
+
+<section>
+<h2>Apa Itu Lingkungan Bersih?</h2>
+<p>Lingkungan bersih adalah tempat di sekitar kita yang bebas dari sampah, kotoran, dan genangan air. Contohnya adalah rumah, kelas, halaman sekolah, taman, dan jalan di sekitar rumah.</p>
+<p>Menjaga kebersihan lingkungan penting agar kita hidup sehat, nyaman, dan bebas dari penyakit. Sampah yang menumpuk dapat mengundang lalat, nyamuk, dan tikus.</p>
+</section>
+
+<section>
+<h2>Manfaat Lingkungan Bersih</h2>
+<div class="grid">
+<div class="card">💚 <b>Tubuh lebih sehat</b><br>Kuman dan penyakit lebih mudah dicegah.</div>
+<div class="card">🏠 <b>Rumah dan sekolah nyaman</b><br>Suasana belajar dan bermain menjadi lebih menyenangkan.</div>
+<div class="card">🦟 <b>Bebas sarang nyamuk</b><br>Tidak ada genangan air dan sampah menumpuk.</div>
+<div class="card">🌐 <b>Bumi lebih baik</b><br>Sampah dikelola dengan benar dan tidak mencemari alam.</div>
+</div>
+</section>
+
+<section>
+<h2>Cara Menjaga Kebersihan</h2>
+<div class="step"><b>1. Buang sampah pada tempatnya.</b> Gunakan tempat sampah tertutup.</div>
+<div class="step"><b>2. Pilah sampah.</b> Pisahkan sampah organik, anorganik, dan B3.</div>
+<div class="step"><b>3. Sapu dan pel lantai.</b> Lakukan secara rutin di rumah dan kelas.</div>
+<div class="step"><b>4. Cuci tangan.</b> Cuci tangan dengan sabun setelah bermain dan sebelum makan.</div>
+<div class="step"><b>5. Jangan membuang sampah ke sungai.</b> Sampah dapat menyumbat saluran air dan mencemari lingkungan.</div>
+<div class="step"><b>6. Gunakan kembali barang.</b> Botol plastik dan kertas dapat dimanfaatkan kembali.</div>
+</section>
+
+<section>
+<h2>📖 Sumber Buku</h2>
+<div class="grid">
+<div class="card">
+<h3>Buku Guru Bahasa Indonesia Kelas 4</h3>
+<p>Digunakan untuk membaca teks dan mencari informasi.</p>
+<a href="https://repositori.kemendikdasmen.go.id/35912/1/Bahasa_Indonesia_BG_KLS_IV_Rev.pdf" target="_blank" rel="noopener">Buka buku guru</a>
+</div>
+<div class="card">
+<h3>Bacaan Anak: Pelangi di Warung Kakek</h3>
+<p>Bacaan anak dari Kemendikdasmen untuk melatih membaca dan memahami isi.</p>
+<a href="https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Pelangi_di_Warung_Kakek-Tiflatul_Husna-FINAL_1.pdf" target="_blank" rel="noopener">Buka bacaan</a>
+</div>
+<div class="card">
+<h3>Buku Perpustakaan Sekolah</h3>
+<p>Gunakan buku IPA, ensiklopedia anak, atau buku cerita tentang lingkungan.</p>
+<p><b>Catatan:</b> Tulis judul buku, pengarang, dan halaman.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>🌐 Sumber Internet</h2>
+<div class="grid">
+<div class="card">
+<h3>Perpustakaan Nasional RI</h3>
+<p>Sumber informasi resmi Indonesia.</p>
+<a href="https://www.perpusnas.go.id/" target="_blank" rel="noopener">Buka Perpusnas</a>
+</div>
+<div class="card">
+<h3>Rumah Belajar</h3>
+<p>Video, artikel, dan materi belajar sesuai jenjang sekolah.</p>
+<a href="https://belajar.kemendikdasmen.go.id/" target="_blank" rel="noopener">Buka Rumah Belajar</a>
+</div>
+<div class="card">
+<h3>Khan Academy Bahasa Indonesia</h3>
+<p>Video dan latihan belajar pendukung.</p>
+<a href="https://id.khanacademy.org/" target="_blank" rel="noopener">Buka Khan Academy</a>
+</div>
+</div>
+</section>
+
+<section>
+<h2>✏️ Latihan Pilihan Ganda</h2>
+<p>Pilih jawaban yang paling tepat, lalu tekan <b>Periksa Jawaban</b>.</p>
+
+<div class="soal">
+<p>1. Lingkungan yang bersih membuat kita ....</p>
+<label><input type="radio" name="q1" value="a"> Lebih sehat dan nyaman</label>
+<label><input type="radio" name="q1" value="b"> Sering sakit</label>
+<label><input type="radio" name="q1" value="c"> Malas belajar</label>
+<label><input type="radio" name="q1" value="d"> Tidak punya teman</label>
+</div>
+
+<div class="soal">
+<p>2. Sampah sebaiknya dibuang ke ....</p>
+<label><input type="radio" name="q2" value="a"> Sungai</label>
+<label><input type="radio" name="q2" value="b"> Sembarang tempat</label>
+<label><input type="radio" name="q2" value="c"> Tempat sampah</label>
+<label><input type="radio" name="q2" value="d"> Halaman tetangga</label>
+</div>
+
+<div class="soal">
+<p>3. Salah satu cara menjaga kebersihan kelas adalah ....</p>
+<label><input type="radio" name="q3" value="a"> Membuang kertas di lantai</label>
+<label><input type="radio" name="q3" value="b"> Menyapu lantai secara rutin</label>
+<label><input type="radio" name="q3" value="c"> Membuang sampah di bawah meja</label>
+<label><input type="radio" name="q3" value="d"> Meninggalkan botol di kelas</label>
+</div>
+
+<div class="soal">
+<p>4. Sampah yang menumpuk dapat mengundang ....</p>
+<label><input type="radio" name="q4" value="a"> Lalat, nyamuk, dan tikus</label>
+<label><input type="radio" name="q4" value="b"> Hujan</label>
+<label><input type="radio" name="q4" value="c"> Angin</label>
+<label><input type="radio" name="q4" value="d"> Pelangi</label>
+</div>
+
+<div class="soal">
+<p>5. Setelah bermain di luar, kita sebaiknya ....</p>
+<label><input type="radio" name="q5" value="a"> Langsung makan</label>
+<label><input type="radio" name="q5" value="b"> Mencuci tangan dengan sabun</label>
+<label><input type="radio" name="q5" value="c"> Membuang sampah ke sungai</label>
+<label><input type="radio" name="q5" value="d"> Tidak membersihkan diri</label>
+</div>
+
+<div class="soal">
+<p>6. Botol plastik bekas dapat ....</p>
+<label><input type="radio" name="q6" value="a"> Dibuang ke sungai</label>
+<label><input type="radio" name="q6" value="b"> Dibakar di halaman</label>
+<label><input type="radio" name="q6" value="c"> Digunakan kembali atau didaur ulang</label>
+<label><input type="radio" name="q6" value="d"> Dibiarkan di jalan</label>
+</div>
+
+<button>Periksa Jawaban</button>
+<div id="hasil"></div>
+</section>
+
+<section>
+<h2>Kartu Detektif Kebersihan</h2>
+<table>
+<tr><th>Yang Harus Kamu Isi</th><th>Jawabanmu</th></tr>
+<tr><td>Dua fakta dari buku</td><td></td></tr>
+<tr><td>Judul buku dan halaman</td><td></td></tr>
+<tr><td>Dua fakta dari internet</td><td></td></tr>
+<tr><td>Nama situs internet</td><td></td></tr>
+<tr><td>Tiga cara menjaga kebersihan</td><td></td></tr>
+<tr><td>Janjiku menjaga kebersihan</td><td></td></tr>
+</table>
+</section>
+
+<section>
+<h2>Tunjukkan Hasilmu!</h2>
+<ul>
+<li>🖼️ Buat poster: “Ayo Jaga Kebersihan Lingkungan!”</li>
+<li>📝 Tulis paragraf singkat tentang pentingnya lingkungan bersih.</li>
+<li>🗣️ Ceritakan tiga kebiasaan baik menjaga kebersihan.</li>
+<li>🧹 Bersihkan meja atau sudut kelas bersama teman.</li>
+</ul>
+<div class="callout">💡 Ingat: Lingkungan bersih dimulai dari kebiasaan kecil. Buang sampah pada tempatnya dan jaga kebersihan bersama-sama!</div>
+</section>
+
+</main>
+<footer>WebQuest Bahasa Indonesia Kelas 4 • Menjaga Kebersihan Lingkungan Sekitar</footer>
+
+</body>
+</html>
